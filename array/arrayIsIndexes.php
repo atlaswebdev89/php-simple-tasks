@@ -1,5 +1,5 @@
 <?php
-$arr1 = [2, 4, 6, 10, 20, 40, 50, 6, 8, 4, 1, 10, '1' => 111, 34];
+$arr1 = [2, 4, 6, 10, 20, 40, 50, 6, 8, 4, 1, 10, '15' => 111, 34];
 
 $arr2 = [
 	'a' => 'red',
@@ -17,4 +17,4 @@ $isIndexArray = function ($list) {
 	return $indexes;
 };
 
-print_r($isIndexArray($arr1));
+var_dump($isIndexArray($arr1));

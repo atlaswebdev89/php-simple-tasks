@@ -1,8 +1,9 @@
 <?php
-$uniqid = "Name";
+$uniqid = "ENVIROMENTS";
 putenv("UNIQID=$uniqid");
 
 echo getenv("UNIQID") . PHP_EOL;
+echo getenv("PATH") . PHP_EOL;
 
 const AJAX = "START";
 // define("AJAX", "START");
