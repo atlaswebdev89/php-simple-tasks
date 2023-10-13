@@ -6,11 +6,14 @@ $a = NULL;
 $b = 20;
 
 if (is_null($a)) {
-	echo "a - null" . PHP_EOL;
+	echo gettype($a) . PHP_EOL;
+}
+
+if(!$a) {
+    echo "Not isset".PHP_EOL;
 }
 
 echo $b . PHP_EOL;
 unset($b);
 
-echo $b . PHP_EOL;
 echo gettype($b) . PHP_EOL;
